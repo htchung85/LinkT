@@ -1,0 +1,221 @@
+{
+  "tiles":
+  [
+    {
+      "title": "Left Tab",
+      "subtitle": "Shows the left tab",
+      "style": {
+        "background-color": "#000000"
+      },
+      "icon": "tab-left_white.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "control",
+            "shift",
+            "tab"
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "command",
+            "alt",
+            "left"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Right Tab",
+      "subtitle": "Shows the right tab",
+      "style": {
+        "background-color": "#000000"
+      },
+      "icon": "tab-right_white.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "control",
+            "tab"
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "command",
+            "alt",
+            "right"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "New",
+      "subtitle": "Opens a new tab",
+      "style": {
+          "background-color": "#347DC2"
+      },
+      "icon": "tab-new_white.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "control",
+            "t"
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "command",
+            "t"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Close",
+      "subtitle": "Closes current tab",
+      "style": {
+        "background-color": "#DF2025"
+      },
+      "icon": "tab-close_white.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "control",
+            "w"
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "command",
+            "w"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Reopen",
+      "subtitle": "Reopens last closed tab",
+      "style": {
+        "background-color": "#FCD207",
+        "color": "#000000"
+      },
+      "icon": "tab-reopen.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "control",
+            "shift",
+            "t"
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "command",
+            "shift",
+            "t"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Fullscreen",
+      "subtitle": "Switches between fullscreen and windowed mode",
+      "style": {
+        "background-color": "#4BB847"
+      },
+      "icon": "fullscreen_white.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "f11"
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "command",
+            "control",
+            "f"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Previous",
+      "subtitle": "Return to previous page",
+      "style": {
+        "background-color": "#FFFFFF",
+        "color": "#000000"
+      },
+      "icon": "arrow-left.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "alt",
+            "left"
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "command",
+            "left"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Next",
+      "subtitle": "Goes to next page again",
+      "style": {
+        "background-color": "#FFFFFF",
+        "color": "#000000"
+      },
+      "icon": "arrow-right.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "alt",
+            "right"
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "command",
+            "right"
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "tiles":
+  [
+    {
+      "title": "Preferences",
+      "subtitle": "Opens the preferences",
+      "style": {
+          "background-color": "#D0D2E8"
+      },
+      "icon": "preferences.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "control",
+            ","
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "command",
+            ","
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Starred",
+      "subtitle": "Opens messages you starred",
+      "style": {
+        "background-color": "#EFEFD7"
+      },
+      "icon": "star.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "control",
+            "shift",
+            "s"
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "command",
+            "shift",
+            "s"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "FullScreen",
+      "subtitle": "Toggles FullScreen mode",
+      "style": {
+        "background-color": "#D0D2E8"
+      },
+      "icon": "fullscreen.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "control",
+            "shift",
+            "f"
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "control",
+            "command",
+            "f"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Unread",
+      "subtitle": "Shows unread messages",
+      "style": {
+        "background-color": "#D9EDD5"
+      },
+      "icon": "exclamation-warning-sign.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "control",
+            "shift",
+            "a"
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "command",
+            "shift",
+            "a"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Previous",
+      "subtitle": "Shows previous channel",
+      "style": {
+        "background-color": "#EAEAEA"
+      },
+      "icon": "simple-left-arrow.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "alt",
+            "up"
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "alt",
+            "up"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Next",
+      "subtitle": "Shows next channel",
+      "style": {
+        "background-color": "#EAEAEA"
+      },
+      "icon": "simple-right-arrow.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          [
+            "alt",
+            "down"
+          ]
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          [
+            "alt",
+            "down"
+          ]
+        ]
+      }
+    }
+  ]
+}

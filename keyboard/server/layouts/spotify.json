@@ -1,0 +1,125 @@
+{
+  "tiles":
+  [
+    {
+      "title": "Play/Pause",
+      "subtitle": "Play or pause the music",
+      "style": {
+        "background-color": "#1ED760"
+      },
+      "icon": "play.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          "space"
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          "space"
+        ]
+      }
+    },
+    {
+      "title": "Mute",
+      "subtitle": "Mute the music",
+      "style": {
+        "background-color": "#1ED760"
+      },
+      "icon": "mute.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          "audio_mute"
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          "audio_mute"
+        ]
+      }
+    },
+    {
+      "title": "Vol --",
+      "subtitle": "Decrease the volume",
+      "style": {
+        "background-color": "#1ED760"
+      },
+      "icon": "volume-down.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          "audio_vol_down"
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          "audio_vol_down"
+        ]
+      }
+    },
+    {
+      "title": "Vol ++",
+      "subtitle": "Louder !",
+      "style": {
+        "background-color": "#1ED760"
+      },
+      "icon": "volume-up.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          "audio_vol_up"
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          "audio_vol_up"
+        ]
+      }
+    },
+    {
+      "title": "Previous song",
+      "subtitle": "Go back to previous song",
+      "style": {
+        "background-color": "#1ED760"
+      },
+      "icon": "rewind.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          "audio_prev"
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          "audio_prev"
+        ]
+      }
+    },
+    {
+      "title": "Next song",
+      "subtitle": "Play next song",
+      "style": {
+        "background-color": "#1ED760"
+      },
+      "icon": "fastforward.png",
+      "width": 1,
+      "height": 1,
+      "action": {
+        "sendKeyStroke": [
+          "audio_next"
+        ]
+      },
+      "actionOSX": {
+        "sendKeyStroke": [
+          "audio_next"
+        ]
+      }
+    }
+  ]
+}
